@@ -22,13 +22,27 @@ p,label,.loading {
 button{
     font-size:20px;
 }
-.day-container {
-    margin-top:50px;
-}
 .days{
     margin:10px;
-    padding:5px;
+    padding:3px;
     border-style: solid;
     border-radius: 5px;
     border-width: 1px;
+}
+.top-container{
+    position: fixed;
+    top:85px;
+}
+.nav-container{
+    position: fixed;
+    top: 0px;
+	align-items: center;
+	justify-content: space-between;
+	height: 90px;
+    width:500vh;
+	padding: 0 2rem;
+	background-color: lightblue;
+}
+.graph-container{
+    display: flex;
 }
